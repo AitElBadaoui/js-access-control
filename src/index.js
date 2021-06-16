@@ -1,5 +1,5 @@
-import "../main.scss";
-import { ComponentService } from "./component.service";
+import "./style.scss";
+import { ComponentService } from "./app/component.service";
 
 var W3CWebSocket = require('websocket').w3cwebsocket;
 const componentService = new ComponentService();
